@@ -14,6 +14,8 @@ public class Teacher {
     private int age;
     private String name;
     private String major;
+    private int salary;
+
 
     @XmlAttribute
     public int getId() {
@@ -27,6 +29,15 @@ public class Teacher {
     public int getAge() {
         return age;
     }
+
+    public int getSalary() {
+        return salary;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
 
     public void setAge(int age) {
         this.age = age;
@@ -59,7 +70,6 @@ public class Teacher {
 
     @Override
     public String toString() {
-        return String.format("ID=%s NAME=%s AGE=%s GENDER=%s major=%s", id, name, age, gender, major);
-
+        return String.format("ID=%s NAME=%s AGE=%s GENDER=%s major=%s Salary=%s", id, name, age, gender, major,salary);
     }
 }

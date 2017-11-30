@@ -20,6 +20,7 @@ public class JAXB {
         teacher.setName("Susan");
         teacher.setGender("Female");
         teacher.setMajor("C#");
+        teacher.setSalary(3000);
 
         ObjectToXML(teacher);
 
