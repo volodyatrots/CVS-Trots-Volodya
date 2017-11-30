@@ -17,9 +17,9 @@ public class JAXB {
         Teacher teacher = new Teacher();
         teacher.setId(1);
         teacher.setAge(25);
-        teacher.setName("Pankaj");
-        teacher.setGender("Male");
-        teacher.setMajor("Java");
+        teacher.setName("Susan");
+        teacher.setGender("Female");
+        teacher.setMajor("C#");
 
         ObjectToXML(teacher);
 
