@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<teacher id="1">
-    <name>Pankaj</name>
+<teacher>
+    <id>1</id>
+    <name>Susan</name>
     <age>25</age>
-    <major>Java</major>
-    <gen>Male</gen>
+    <major>C#</major>
+    <gen>Female</gen>
+    <salary>3000</salary>
 </teacher>

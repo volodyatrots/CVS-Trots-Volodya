@@ -7,7 +7,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
 @XmlRootElement(name = "teacher")
-@XmlType(propOrder = {"name", "age", "major", "gender"})
+@XmlType(propOrder = {"id","name", "age", "major", "gender","salary"})
 public class Teacher {
     private int id;
     private String gender;
@@ -17,7 +17,7 @@ public class Teacher {
     private int salary;
 
 
-    @XmlAttribute
+    @XmlElement
     public int getId() {
         return id;
     }
