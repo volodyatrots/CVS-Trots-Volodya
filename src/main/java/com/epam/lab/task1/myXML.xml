@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<students>
+  <student id="100">
+    <name>Joe Bom</name>
+    <age>21</age>
+    <major>Biology</major>
+  </student>
+  <student id="102">
+    <name>Jack Doe</name>
+    <age>18</age>
+    <major>Physics</major>
+  </student>
+</students>
